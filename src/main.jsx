@@ -10,9 +10,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       domain="dev-86jkedxadrskp0a7.us.auth0.com"
       clientId="sXmy03RjREZTlKa7J0mosllpg3cxgQf3"
       authorizationParams={{
-        redirect_uri: "http://localhost:5173",
+        redirect_uri: "https://homys-antoine.netlify.app",
       }}
-      audience="http://localhost:8000"
+      audience="https://homys-backend.onrender.com"
       scope="openid profile email"
     >
       <App />
